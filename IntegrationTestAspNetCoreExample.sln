@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpApi", "HttpApi\HttpApi.csproj", "{861B673E-82C1-4D25-9138-4878A3B50DDA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A5B8BEB-F235-4897-A3B4-BF4419EA4FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.IntegrationTests", "tests\Application.IntegrationTests\Application.IntegrationTests.csproj", "{D996C3BB-EC2B-4E35-916C-67F20B888716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,12 @@ Global
 		{861B673E-82C1-4D25-9138-4878A3B50DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861B673E-82C1-4D25-9138-4878A3B50DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861B673E-82C1-4D25-9138-4878A3B50DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D996C3BB-EC2B-4E35-916C-67F20B888716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D996C3BB-EC2B-4E35-916C-67F20B888716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D996C3BB-EC2B-4E35-916C-67F20B888716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D996C3BB-EC2B-4E35-916C-67F20B888716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D996C3BB-EC2B-4E35-916C-67F20B888716} = {1A5B8BEB-F235-4897-A3B4-BF4419EA4FE9}
 	EndGlobalSection
 EndGlobal
